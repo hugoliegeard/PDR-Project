@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Inscription à notre newsletter !</title>
+    </head>
+    <body>
+
+        <h1>Lettre d'informations</h1>
+
+        <p>
+            Inscrivez-vous et recevez toutes nos informations exclusives
+            directement dans votre boite e-mail. ☺️
+        </p>
+
+        <img src="images/contact.jpg" alt="Contactez-nous">
+
+        <ul>
+            <li><a href="https://pdr.popcorner-developpement.fr/">Retourner vers le site</a></li>
+            <li><a href="newsletter.html">Inscription à notre Newsletter</a></li>
+            <li><a href="accreditation-presse.html">Accreditation Presse</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+        </ul>
+
+        <form id="newsletter">
+
+            <input type="text" placeholder="Votre prénom...">
+            <input type="email" placeholder="Votre email...">
+
+            <p>
+                En vous inscrivant, vous acceptez de recevoir par e-mail les actualités de PDR.
+            </p>
+
+            <label for="rgpd-accepter">Oui, je souhaite m'inscrire</label>
+            <input id="rgpd-accepter" type="radio" name="rgpd" value="accepter">
+
+            <br> <!-- Saut de ligne -->
+
+            <label for="rgpd-refuser">Non, je ne souhaite pas m'inscrire</label>
+            <input checked id="rgpd-refuser" type="radio" name="rgpd" value="refuser">
+
+            <br><br>
+
+            <button type="submit">Confirmer mon inscription</button>
+
+        </form>
+
+    </body>
+</html>

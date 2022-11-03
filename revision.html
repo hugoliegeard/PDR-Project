@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- La balise HTML contient toute notre page HTML -->
+<html>
+    <head>
+        <!-- Entete de notre page -->
+
+        <!-- Préciser l'encodage de la page. -->
+        <meta charset="utf-8">
+
+        <!-- Je vais donner un titre à ma page -->
+        <title>Révision avec Agathe</title>
+    </head>
+
+    <body>
+        <!-- 
+            Dans la balise BODY on va retrouver le corps de notre page, son contenu.
+            ex. Des images, des textes, etc...
+         -->
+
+         <!-- Les balises de titre -->
+         <h1>Fraise</h1>
+         <h2>Pamplemousse</h2>
+         <h3>Banane</h3>
+         <h4>Melon</h4>
+         <h5>Kiwi</h5>
+         <h6>Orange</h6>
+
+         <!-- Paragraphe simple -->
+         <p>
+            Ici, s'introduit de façon inopinée un joli
+            paragraphe.
+         </p>
+
+         <!-- Paragraphe simple avec un saut de ligne -->
+         <p>
+            Je ne comprend pas pourquoi... <br>ce saut de ligne !!!
+         </p>
+
+         <!-- Mettre une image sur ma page -->
+         <!-- Une image depuis mon dossier local -->
+        <img src="images/chat.webp" alt="Un très beau chat">
+
+        <!-- Une image distante depuis une URL internet -->
+        <img src="https://images.ladepeche.fr/api/v1/images/view/63600c1986a82e7a5a29be4b/large/image.jpg?v=2" alt="Un autre très beau chat">
+
+        <!-- Liste non ordonnée, pour créer des menus -->
+        <ul>
+            <li>Accueil</li>
+            <li>Demandez le programme</li>
+            <li>Billeterie</li>
+            <li>Espace Presse</li>
+            <li>L'Association</li>
+        </ul>
+
+        <!-- Créer des liens vers d'autres pages, ou d'autres sites -->
+        <a href="https://google.fr">Google</a>
+        <a href="https://wf3.fr">Webforce3</a>
+
+        <!-- Je peux mixer mes balises de liste et de lien ! -->
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="programme.html">Demandez le programme</a></li>
+            <li><a href="billeterie.html">Billeterie</a></li>
+            <li><a href="espace-presse.html">Espace Presse</a></li>
+            <li><a href="presentation.html">L'Association</a></li>
+        </ul>
+
+        <!-- Les formulaires HTML -->
+
+        <!-- 1. Ouvrir une balise <form> -->
+        <form id="identifiant_unique_du_formulaire">
+
+            <!-- 2. Choisir les types de champs souhaités -->
+            
+            <input type="text" placeholder="Saisissez du texte..."> <br>
+            <input type="email" placeholder="Saisissez votre email..."> <br>
+            <input type="tel" placeholder="Saisissez votre téléphone..."> <br>
+            <input type="password" placeholder="Choisissez un mot de passe..."> <br>
+            <input type="color"> <br>
+            <input type="file"><br>
+
+            <!-- Cas des boutons radios -->
+            <label for="rgpd-accepter">Accepter</label>
+            <input id="rgpd-accepter" type="radio" name="rgpd" value="accepter">
+
+            <label for="rgpd-refuser">Refuser</label>
+            <input checked id="rgpd-refuser" type="radio" name="rgpd" value="refuser">
+            <br>
+
+            <!-- Cas des checkbox -->
+            <input id="exemple1" type="checkbox" name="exemple" value="exemple1">
+            <label for="exemple1">Exemple 1</label>
+
+            <input id="exemple2" type="checkbox" name="exemple" value="exemple2">
+            <label for="exemple2">Exemple 2</label>
+
+            <!-- Textarea -->
+            <br><br>
+            <textarea placeholder="Avez-vous des observations ?"></textarea>
+
+            <br><br>
+            <input type="button" value="Envoyer">
+            <button type="submit">Envoyer</button>
+
+        </form>
+        
+
+
+
+
+
+
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>         
+
+    </body>
+</html>
