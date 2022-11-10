@@ -6,104 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demande d'accréditation pour la presse | PDR Festival</title>
     <!-- Feuille de Style CSS | Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+          crossorigin="anonymous">
     <!-- Feuille de Style CSS | Bootstrap -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
     <div class="row">
-      <div class="col-7 mx-auto shadow-sm bg-white my-5 p-5">
-        <h1 class="display-5">Demande d'accréditation<br> pour la presse.</h1>
-        <p>Demandez votre accréditation presse pour le festival : "Paquet de Rire".</p>
+        <div class="col-7 mx-auto shadow-sm bg-white my-5 p-5">
+            <h1 class="display-5">Demande d'accréditation<br> pour la presse.</h1>
+            <p>Demandez votre accréditation presse pour le festival : "Paquet de Rire".</p>
 
-        <form id="acces-presse" class="mt-5">
+            <form id="acces-presse" class="mt-5 needs-validation" novalidate>
 
-            <input class="form-control" type="text" placeholder="Nom"> <br>
-            <input class="form-control" type="text" placeholder="Prénom"> <br>
-            <input class="form-control" type="email" placeholder="Saisissez votre email..."> <br>
-            <input class="form-control" type="tel" placeholder="Saisissez votre téléphone..."> <br>
-            <input class="form-control" type="text" placeholder="Quel est le nom de votre média ?"> <br>
+                <input required class="form-control" type="text" placeholder="Nom"> <br>
+                <input required class="form-control" type="text" placeholder="Prénom"> <br>
+                <input required class="form-control" type="email" placeholder="Saisissez votre email..."> <br>
+                <input required class="form-control" type="tel" placeholder="Saisissez votre téléphone..."> <br>
+                <input required class="form-control" type="text" placeholder="Quel est le nom de votre média ?"> <br>
 
-            <h3>Sur quel spectacle souhaitez-vous venir ?</h3>
+                <h3>Sur quel spectacle souhaitez-vous venir ?</h3>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-1" type="checkbox" value="Fanny RUWET 9 février 20h30">
-              <label class="form-check-label" for="spectacle-1">Fanny RUWET | 9 février à 20h30 </label><br>
-            </div>
-          
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-2" type="checkbox" value="Alex CHAMPAGNAC 9 février 20h30">
-              <label class="form-check-label" for="spectacle-2">Alex CHAMPAGNAC | 9 février à 20h30</label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-1" type="checkbox"
+                           value="Fanny RUWET 9 février 20h30">
+                    <label class="form-check-label" for="spectacle-1">Fanny RUWET | 9 février à 20h30 </label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-3" type="checkbox" value="Caroline ESTREMO 10 février 21h00 ">
-              <label class="form-check-label" for="spectacle-3">Caroline ESTREMO | 10 février à 21h00 </label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-2" type="checkbox"
+                           value="Alex CHAMPAGNAC 9 février 20h30">
+                    <label class="form-check-label" for="spectacle-2">Alex CHAMPAGNAC | 9 février à 20h30</label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-4" type="checkbox" value="Lisa PERRIO 11 février 21h00">
-              <label class="form-check-label" for="spectacle-4">Lisa PERRIO | 11 février à 21h00</label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-3" type="checkbox"
+                           value="Caroline ESTREMO 10 février 21h00 ">
+                    <label class="form-check-label" for="spectacle-3">Caroline ESTREMO | 10 février à 21h00 </label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-5" type="checkbox" value="Kévin LEVY 10 février 21h00 ">
-              <label class="form-check-label" for="spectacle-5">Kévin LEVY | 10 février à 21h00 </label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-4" type="checkbox"
+                           value="Lisa PERRIO 11 février 21h00">
+                    <label class="form-check-label" for="spectacle-4">Lisa PERRIO | 11 février à 21h00</label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-6" type="checkbox" value="Quentin RATIEUVILLE 12 février 20h00 ">
-              <label class="form-check-label" for="spectacle-6">Quentin RATIEUVILLE | 12 février à 20h00 </label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-5" type="checkbox"
+                           value="Kévin LEVY 10 février 21h00 ">
+                    <label class="form-check-label" for="spectacle-5">Kévin LEVY | 10 février à 21h00 </label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-7" type="checkbox" value="Candiie 11 février 21h00">
-              <label class="form-check-label" for="spectacle-7">Candiie | 11 février à 21h00</label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-6" type="checkbox"
+                           value="Quentin RATIEUVILLE 12 février 20h00 ">
+                    <label class="form-check-label" for="spectacle-6">Quentin RATIEUVILLE | 12 février à
+                        20h00 </label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="spectacle-8" type="checkbox" value="Roman DODUIK 12 février 20h00">
-              <label class="form-check-label" for="spectacle-8">Roman DODUIK | 12 février à 20h00</label><br>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-7" type="checkbox" value="Candiie 11 février 21h00">
+                    <label class="form-check-label" for="spectacle-7">Candiie | 11 février à 21h00</label><br>
+                </div>
 
-            <h3 class="mt-4">Moyen utilisé</h3>
-            
-            <div class="form-check">
-              <input class="form-check-input" id="moyen-1" type="checkbox" value="Appareil photos">
-              <label class="form-check-label" for="moyen-1">Appareil photos</label>
-            </div>
-            
-            <div class="form-check">
-              <input class="form-check-input" id="moyen-2" type="checkbox" value="Caméra">
-              <label class="form-check-label" for="moyen-2">Caméra</label>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="spectacle-8" type="checkbox"
+                           value="Roman DODUIK 12 février 20h00">
+                    <label class="form-check-label" for="spectacle-8">Roman DODUIK | 12 février à 20h00</label><br>
+                </div>
 
-            <div class="form-check">
-              <input class="form-check-input" id="moyen-3" type="checkbox" value="Micro">
-              <label class="form-check-label" for="moyen-3">Micro</label>
-            </div>
+                <h3 class="mt-4">Moyen utilisé</h3>
 
-            <div class="form-check">
-              <input class="form-check-input" id="moyen-4" type="checkbox" value="Presse écrite">
-              <label class="form-check-label" for="moyen-4">Presse écrite</label>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="moyen-1" type="checkbox" value="Appareil photos">
+                    <label class="form-check-label" for="moyen-1">Appareil photos</label>
+                </div>
 
-            <div class="alert alert-info my-4">
-              L'équipe du Festival reste a votre disposition en cas de besoins.
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="moyen-2" type="checkbox" value="Caméra">
+                    <label class="form-check-label" for="moyen-2">Caméra</label>
+                </div>
 
-            <div class="d-grid gap-2">
-              <button class="btn btn-dark">Transmettre ma demande d'accréditation</button>
-            </div>
+                <div class="form-check">
+                    <input class="form-check-input" id="moyen-3" type="checkbox" value="Micro">
+                    <label class="form-check-label" for="moyen-3">Micro</label>
+                </div>
 
-          </form>
-      </div> <!-- ./col-6 -->
+                <div class="form-check">
+                    <input class="form-check-input" id="moyen-4" type="checkbox" value="Presse écrite">
+                    <label class="form-check-label" for="moyen-4">Presse écrite</label>
+                </div>
+
+                <div class="alert alert-info my-4">
+                    L'équipe du Festival reste a votre disposition en cas de besoins.
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button class="btn btn-dark">Transmettre ma demande d'accréditation</button>
+                </div>
+
+            </form>
+        </div> <!-- ./col-6 -->
     </div> <!-- ./row -->
-  </div> <!-- ./container -->
+</div> <!-- ./container -->
+
+<!-- Script de validation et d'envoi du formulaire -->
+<script src="js/validation.js"></script>
+
 </body>
 </html>
